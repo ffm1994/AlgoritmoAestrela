@@ -1,0 +1,10 @@
+c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\bin\Debug\AlgoritmoAestrela.exe.config
+c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\bin\Debug\AlgoritmoAestrela.exe
+c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\bin\Debug\AlgoritmoAestrela.pdb
+c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.csprojResolveAssemblyReference.cache
+c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.Properties.Resources.resources
+c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.csproj.GenerateResource.Cache
+c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.exe
+c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.pdb
+c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.FormConfig.resources
+c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.Mapa.resources
