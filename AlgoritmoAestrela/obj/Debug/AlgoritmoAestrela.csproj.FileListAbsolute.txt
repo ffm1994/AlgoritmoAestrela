@@ -8,3 +8,14 @@ c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\Algoritm
 c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.pdb
 c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.FormConfig.resources
 c:\users\felipe\documents\visual studio 2013\Projects\AlgoritmoAestrela\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.Mapa.resources
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\bin\Debug\AlgoritmoAestrela.exe.config
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.exe
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.pdb
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\bin\Debug\AlgoritmoAestrela.exe
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\bin\Debug\AlgoritmoAestrela.pdb
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.csprojResolveAssemblyReference.cache
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.Mapa.resources
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.FormConfig.resources
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.Properties.Resources.resources
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.csproj.GenerateResource.Cache
+C:\Users\Felipe\Desktop\AlgoritmoAestrela-master\AlgoritmoAestrela\obj\Debug\AlgoritmoAestrela.ConfigCustos.resources
