@@ -182,12 +182,15 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(785, 611);
             this.Name = "Mapa";
-            this.Text = "Form1";
+            this.Text = "Mapa";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ClosedForm);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
+
+      
 
         #endregion
 

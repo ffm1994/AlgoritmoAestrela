@@ -1,0 +1,4 @@
+- atualizar custos no mapa
+- mostrar lista de abertos e fechado
+- selecionar um elemento da lista de aberto ou fechado, mostrar o caminho até ele
+- salvar arquivo

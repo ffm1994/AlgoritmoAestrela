@@ -86,9 +86,9 @@ namespace Algoritmo
         /// Gets the distance between two points
         /// </summary>
         internal static float GetTraversalCost(Point location, Point otherLocation)
-        {
+        {// multiplicar pelos custos os deltas
             float deltaX = otherLocation.X - location.X;
-            float deltaY = otherLocation.Y - location.Y;
+            float deltaY = otherLocation.Y - location.Y;            
             return (float)Math.Sqrt(deltaX * deltaX + deltaY * deltaY);
         }
     }

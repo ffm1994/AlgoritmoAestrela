@@ -111,7 +111,7 @@
             this.txtBoxEndereco.Name = "txtBoxEndereco";
             this.txtBoxEndereco.Size = new System.Drawing.Size(203, 20);
             this.txtBoxEndereco.TabIndex = 2;
-            this.txtBoxEndereco.Text = "C:\\Users\\Felipe\\Desktop\\AlgoritmoAestrela-master\\mapa1.txt";
+            this.txtBoxEndereco.Text = "C:\\Users\\Felipe\\Desktop\\AlgoritmoAestrela-master\\Labir1.txt";
             // 
             // btnCancel
             // 

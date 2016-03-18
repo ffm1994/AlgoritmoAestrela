@@ -59,9 +59,16 @@ namespace AlgoritmoAestrela
 
         public void PintarCelula(Color cor, CoordenadaMapa coordenada, Mapa mapa)
         {
-            if (!(coordenada.getLinha() == -1 && coordenada.getColuna() == -1))
+            try
             {
-                mapa.getDataGridView().Rows[coordenada.getLinha()].Cells[coordenada.getColuna()].Style.BackColor = Color.White;
+                if (!(coordenada.getLinha() == -1 && coordenada.getColuna() == -1))
+                {
+                    mapa.getDataGridView().Rows[coordenada.getLinha()].Cells[coordenada.getColuna()].Style.BackColor = Color.White;
+                }               
+            }
+            catch(ArgumentOutOfRangeException)
+            {
+
             }
             coordenada.setLinha(mapa.getDataGridView().CurrentCell.RowIndex);
             coordenada.setColuna(mapa.getDataGridView().CurrentCell.ColumnIndex);

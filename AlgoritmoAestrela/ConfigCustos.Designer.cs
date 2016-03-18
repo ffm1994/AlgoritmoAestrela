@@ -150,7 +150,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(232, 251);
             this.Name = "ConfigCustos";
-            this.Text = "ConfigCustos";
+            this.Text = "Configurar Custos";
             this.ResumeLayout(false);
             this.PerformLayout();
 

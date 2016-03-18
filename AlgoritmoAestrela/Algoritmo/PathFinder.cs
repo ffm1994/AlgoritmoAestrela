@@ -26,6 +26,7 @@ namespace Algoritmo
             InitializeNodes(searchParameters.Map);
             this.startNode = this.nodes[searchParameters.StartLocation.X, searchParameters.StartLocation.Y];
             this.startNode.State = NodeState.Open;
+            // add lista open
             this.endNode = this.nodes[searchParameters.EndLocation.X, searchParameters.EndLocation.Y];
         }
 
@@ -81,6 +82,7 @@ namespace Algoritmo
         private bool Search(Node currentNode)
         {
             // Set the current node to Closed since it cannot be traversed more than once
+            // add lista closed
             currentNode.State = NodeState.Closed;
             List<Node> nextNodes = GetAdjacentWalkableNodes(currentNode);
 
@@ -136,6 +138,7 @@ namespace Algoritmo
                 // Already-open nodes are only added to the list if their G-value is lower going via this route.
                 if (node.State == NodeState.Open)
                 {
+                    //passar custo tranversal manualmente se nao euclidiano
                     float traversalCost = Node.GetTraversalCost(node.Location, node.ParentNode.Location);
                     float gTemp = fromNode.G + traversalCost;
                     if (gTemp < node.G)
@@ -148,6 +151,7 @@ namespace Algoritmo
                 {
                     // If it's untested, set the parent and flag it as 'Open' for consideration
                     node.ParentNode = fromNode;
+                    //add lista open
                     node.State = NodeState.Open;
                     walkableNodes.Add(node);
                 }
@@ -162,7 +166,7 @@ namespace Algoritmo
         /// <param name="fromLocation">The location from which to return all adjacent points</param>
         /// <returns>The locations as an IEnumerable of Points</returns>
         private static IEnumerable<Point> GetAdjacentLocations(Point fromLocation)
-        {
+        {            
             return new Point[]
             {
                 new Point(fromLocation.X-1, fromLocation.Y-1),

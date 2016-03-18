@@ -40,7 +40,7 @@ namespace AlgoritmoAestrela
             this.custoDiagonal = (double)Math.Sqrt(custoHorizontal * custoHorizontal + custoVertical * custoVertical);
             
             CriarCenario();
-            dataGridView1.SelectionChanged += new EventHandler(SelectionChangedTable);     
+            dataGridView1.SelectionChanged += new EventHandler(SelectionChangedTable);                 
         }  
         
         public Mapa(string[] text)
@@ -57,6 +57,12 @@ namespace AlgoritmoAestrela
             CriarCenario();
             pintar.PintarMapa(this);            
             dataGridView1.SelectionChanged += new EventHandler(SelectionChangedTable);     
+        }
+
+        private void ClosedForm(object sender, System.Windows.Forms.FormClosedEventArgs e)
+        {
+            coordenadaStart = null;
+            coordenadaFinish = null;
         }
 
         public dynamic Decodificar(int index, bool isInt)
